@@ -1,72 +1,135 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "La ropa",
+    answer: "clothes",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
-  },
+      "clothes",
+      "vest",
+      "wristwatch",
+      "earrings"
+      ]
+    },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Una camiseta sin mangas",
+    answer: "Tank tops (Sleeveless shirt)",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
-  },
+      "shirt (long sleeve)",
+      "Tank tops (Sleeveless shirt)",
+      "scarf",
+      "beanie"
+      ]
+    },
     {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
+      numb: 3,
+      question: "Una camiseta",
+      answer: "t-shirt",
+      options: [
+        "Clothes",
+        "Made of wool",
+        "t-shirt",
+        "Tie"
+      ]
+    },
     {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
+      numb: 4,
+      question: "Una camiseta (de manga larga)",
+      answer: "shirt (long sleeve)",
+      options: [
+        "jacket",
+        "jeans",
+        "jersey",
+        "shirt (long sleeve)"
+      ]
+    },
     {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
+      numb: 5,
+      question: "una sudadera",
+      answer: "sweatshirt",
+      options: [
+        "sweatshirt",
+        "zipper",
+        "belt",
+        "necklace"
+      ]
+    },
+    {
+      numb: 6,
+      question: "Is this a cool quiz (There is only one answer)",
+      answer: "Yes",
+      options: [
+        "Yes",
+        ".",
+        ".",
+        "."
+      ]
+    },
 
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+
 ];
+
+/*
+
+la ropa	clothes
+una camiseta sin mangas	tank tops (sleeveless shirt)
+una camiseta	t-shirt
+una camisa (de manga larga)	shirt (long sleeve)
+una sudadera	sweatshirt
+un suéter, un jersey, un saco	sweater
+un suéter / una sudadera con capucha	hoodie
+un traje	suit
+una corbata	tie
+una blusa	blouse
+una falda	skirt
+un vestido	dress
+una chaqueta	jacket
+una bufanda	scarf
+un traje de baño	bathing/swimming suit
+unos pantalones	pants
+unos vaqueros, unos jeans	jeans
+una camisa (manga larga)	(long-sleeved) shirt
+un abrigo	coat
+unos guantes	gloves
+unos calcetines, unas medias	socks
+unas pijamas	pajamas
+un chaleco	vest
+unos pantalones cortos	shorts
+ropa interior: calzoncillos y pantaletas	underwear: briefs and panties
+unas medias largas	stockings, tights
+unos zapatos	shoes
+unos tacones (altos)	(high) heels
+unos zapatos deportivos, unos tenis	athletic shoes, sneakers
+unas botas	boots
+un impermeable	raincoat
+unas chanclas, unas chancletas	flip-flops
+unas sandalias	sandals
+una gorra	(baseball) cap
+un sombrero	hat
+un gorro (de lana)	woolen hat, beanie
+un cinturón	belt
+unos lentes, unas gafas	reading glasses
+unos aretes, unos zarcillos	earrings
+unos lentes de sol, unas gafas de sol	sunglasess
+un reloj	wristwatch
+un collar	necklace
+un brazalete, una manilla	bracelet, armband
+una cremallera, un cierre	zipper
+floreado	flowered, floral
+de cuadros	plaid, checked
+de rayas	striped
+de cuero	made of leather
+de lana	made of wool
+de moda, a la moda	fashionable, trendy
+Llevar puesto (a/os/as)	to wear, to have on
+Vestirse	to get dressed
+Quitarse	to take off
+Ponerse	to put on
+Probarse	to try on
+Abrocharse	to fasten, "to buckle-up/button up"
+Subirse la cremallera	to zip up
+Bajarse la cremallera	to unzip
+Atarse los zapatos	to tie one's shoes
+Desatarse los zapatos	to untie shoelaces
+
+*/
